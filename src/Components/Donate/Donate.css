@@ -49,17 +49,30 @@
     display: flex;
     font-weight: 700;
     align-items: center;
-    color: var(--primary-text-color);
+    color: var(--info-text-color);
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.donate-heading {
-    font-size: 2vw;
+.donate-text-container > h1 {
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 4vw;
+    padding: 0 10%;
+}
+
+@media (max-width: 673px) {
+    .donate-text-container > h1 {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
 }
 
 .donate-description {
-    font-size: 1vw;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    word-spacing: 0.3vw;
 }
 
 .donate-box-container {
@@ -88,6 +101,7 @@
     /* Q. Why does the font look so small? */
     .donate-container {
         flex-direction: column;
+        flex-wrap: nowrap;
     }
     .donate-text-container {
         flex-basis: 30%;
@@ -101,9 +115,8 @@
         justify-content: center;
     }
     .donate-box {
-        width: 60vw;
-        height: 30vh;
-        /* Q. Why is there a huge gap between text and donation box when this is applied? */
+        width: 60vmin;
+        height: 40vmax;
     }
 }
 
@@ -257,13 +270,23 @@ input:focus {
 
 .donate-btn {
     display: flex;
-    flex: 1;
-    border-radius: 25px;
+    /* flex: 1; */
+    padding: 1.3vw 3.3vw;
+    border-radius: 2.3vw;
     justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 1vmax;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
     align-self: center;
     align-items: center;
-    background: var(--primary-dim-color);
-    /* Q. Had set a width here but that ruined the mobile version. Without it mobile works but laptop looks funny */
+    background: var(--primary-deactivate-color);
+}
+
+.donate-btn:hover {
+    transform: translateY(-2px);
 }
 
 .donate-btn-active {
@@ -284,4 +307,4 @@ input:focus {
     border-radius: 888rem;
     margin: 0.5rem 0;
     cursor: pointer;
-  }
+}

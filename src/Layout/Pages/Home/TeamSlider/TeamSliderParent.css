@@ -3,7 +3,7 @@
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
-  height: 35vmax;
+  min-height: 20rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -15,13 +15,13 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 425px) {
   .team-parent-container {
       display: flex;
       justify-content: center;
       align-items: center;
       padding-top: 10vw;
-      height: 50vmax;
+      height: 30rem;
   }
 }
 
@@ -62,6 +62,6 @@
   .team-parent-container {
     justify-content: center;
     align-items: center;
-    height: 60vmax;
+    min-height: 30rem;
   }
 }
