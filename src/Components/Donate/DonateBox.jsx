@@ -31,9 +31,11 @@ export default function DonateBox(props) {
     const handleDonationSubmit = (event) => {
         if(selectedAmount === "0") {
             setError("Please choose or specify an amount to donate.");
+            return;
         }
         else if(!(/^\d+(\.\d{1,2})?$/).test(selectedAmount)) {
             setError("Please provide a valid amount to donate.")
+            return;
         }
         console.log(donationMessage);
         if(error === "") {
