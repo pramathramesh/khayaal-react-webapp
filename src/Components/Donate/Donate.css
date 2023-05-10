@@ -9,6 +9,33 @@
     gap: 2em;
 }
 
+@media screen and (min-width: 768px) {
+    .donate-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .donate-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .donate-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20vw;
+    }
+}
+
 .donate-text-container {
     display: flex;
     flex-basis: 55%;
