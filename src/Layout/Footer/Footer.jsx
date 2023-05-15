@@ -7,9 +7,11 @@ import TwitterLogo from '../../assets/FooterLogo/twitter.png';
 import phoneIcon from "../../assets/FooterLogo/phone-call_filled.png"
 import emailIcon from "../../assets/FooterLogo/email_filled.png"
 import locationIcon from "../../assets/FooterLogo/location_filled.png"
+import LegalDocModal from '../../Components/LegalDocModal/LegalDocModal';
 
 
 function Footer() {
+    const [ IsOpen, setIsOpen ] = React.useState(true)
     const legalDocLinks = {
         privacy: "https://docs.google.com/document/d/1qLowbQwnAOD4AKuhays48RdhkH6BM9f7/edit?usp=drivesdk&ouid=105560095203525235771&rtpof=true&sd=true",
         termsAndConditions: "https://docs.google.com/document/d/1DilKI5Vw98dpILeGXOcADehPVceo-cj0/edit?usp=drivesdk&ouid=105560095203525235771&rtpof=true&sd=true"
@@ -21,6 +23,11 @@ function Footer() {
         email: "team@khayaal.org",
         address: "3/60, Khayaal Foundation, Gomti Nagar, Vishal Khand, Gomti Nagar Rd, Lucknow 226010"
     }
+    const handleClose = () => {
+        setIsOpen(false);
+        document.body.style.overflow = "auto"; // restore scrollability to the body
+    }
+    
 
     return (
         <div className="footer-main-container">
@@ -60,8 +67,8 @@ function Footer() {
             <div className='footer-links-container'>
                 <a target="_blank" rel="noopener noreferrer" href={legalDocLinks.privacy}>Privacy</a>
                 <a target="_blank" rel="noopener noreferrer" href={legalDocLinks.termsAndConditions}>Terms & Conditions</a>
-
             </div>
+            <LegalDocModal isOpen={IsOpen} onClose={handleClose} />
         </div>
     )
 }
