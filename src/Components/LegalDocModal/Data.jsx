@@ -1,4 +1,4 @@
-export default function Section_Terms() {
+export function Section_Terms() {
     return (
         <>
             <h3>Terms And Conditions</h3>
@@ -17,7 +17,7 @@ export default function Section_Terms() {
     );
 }
 
-export default function Section_UseOfWebsite() {
+export function Section_UseOfWebsite() {
     return (
         <>
             <h3>Your Use of the Website</h3>
@@ -28,7 +28,7 @@ export default function Section_UseOfWebsite() {
     );
 }
 
-export default function Section_Privacy() {
+export function Section_Privacy() {
     return (
         <>
             <h3>Privacy Policy</h3>
@@ -39,7 +39,7 @@ export default function Section_Privacy() {
     );
 }
 
-export default function Section_Accuracy() {
+export function Section_Accuracy() {
     return (
         <>
             <h3>Accuracy, Completeness and Timeliness of Information on the Website</h3>
@@ -50,7 +50,7 @@ export default function Section_Accuracy() {
     );
 }
 
-export default function Section_MaterialUse() {
+export function Section_MaterialUse() {
     return (
         <>
             <h3>Use of Materials From the Website</h3>
@@ -58,7 +58,7 @@ export default function Section_MaterialUse() {
             Except where explicitly stated otherwise, this website and all of its content (including but not limited to software, files, graphics and data) are the property of and owned by Khayaal and/or its affiliates, suppliers or licensors and are protected by copyright, trademark and other laws of India and other countries. You may display and electronically copy, download and print hard-copy versions of the materials contained on the website for your personal and non-commercial use, provided that you do not modify or delete any copyright, trademark or other proprietary notice that appears on the materials you copy, download or print. When you display, copy, download or print any materials on or from the website, they are provided to you by Khayaal and/or its affiliates, suppliers or licensors under a license that is revocable at will by Khayaal. Khayaal and/or its affiliates, suppliers or licensors retain full and complete title to the materials and to any and all of the associated intellectual property rights. Any other use of the materials on the website, including but not limited to the modification, distribution, transmission, performance, broadcast, reproduction, publication, licensing, reverse engineering, transfer or sale of, or the creation of derivative works from, any materials, information, software, products or services obtained from the website, without the prior written permission of Khayaal, is expressly prohibited. Contact us for getting permission to undertake any of these activities on
             </p>
             <p>
-            Khayaal
+            Khayaal<br></br>
             3/60, Khayaal Foundation,  Gomti Nagar, Vishal Khand, Gomti Nagar Rd, Lucknow- 226010 <br></br>
             Tel: 9876543210 <br></br>
             Email: team@khayaal.org    
@@ -68,7 +68,7 @@ export default function Section_MaterialUse() {
 }
 
 
-export default function Section_Disclaimers() {
+export function Section_Disclaimers() {
     return (
         <>
             <h3>Disclaimers</h3>
@@ -76,35 +76,74 @@ export default function Section_Disclaimers() {
             YOUR USE OF THIS WEBSITE IS AT YOUR OWN RISK. THE WEBSITE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. WE RESERVE THE RIGHT TO RESTRICT OR TERMINATE YOUR ACCESS TO THE WEBSITE OR ANY FEATURE OR ANY PART THEREOF AT ANY TIME. KHAYAAL EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND ANY WARRANTIES THAT MATERIALS ON THE WEBSITE ARE NON-INFRINGING; THAT ACCESS TO THE WEBSITE WILL BE UNINTERRUPTED OR ERROR-FREE; THAT THE WEBSITE OR ANY CONTENT SUBMITTED TO THE WEBSITE WILL BE SECURE; THAT THE WEBSITE OR THE SOFTWARE AND SERVERS THAT MAKE THE WEBSITE AVAILABLE WILL BE VIRUS-FREE; OR THAT INFORMATION ON THE WEBSITE WILL BE COMPLETE, ACCURATE OR TIMELY. IF YOU DOWNLOAD ANY MATERIALS FROM THIS WEBSITE, YOU DO SO AT YOUR OWN DISCRETION AND RISK. YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH MATERIALS. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM KHAYAAL OR THROUGH OR FROM THE WEBSITE SHALL CREATE ANY WARRANTY OF ANY KIND. KHAYAAL DOES NOT MAKE ANY WARRANTIES OR REPRESENTATIONS REGARDING ANY RESULTS OBTAINED BY YOU IN RELYING ON THE MATERIALS ON THIS WEBSITE OR THE USE OF THE MATERIALS ON THIS WEBSITE IN TERMS OF THEIR COMPLETENESS, CORRECTNESS, ACCURACY, ADEQUACY, USEFULNESS, TIMELINESS, RELIABILITY OR OTHERWISE. IN CERTAIN STATES, THE LAW MAY NOT PERMIT THE DISCLAIMER OF WARRANTIES, SO ALL OR PORTIONS OF THE ABOVE DISCLAIMER MAY NOT APPLY TO YOU.
             </p>
             <p>
-            EXCEPT AS OTHERWISE EXPRESSLY PROVIDED IN THESE TERMS AND CONDITIONS, KHAYAAL MAKES NO REPRESENTATIONS, COVENANTS OR WARRANTIES AND OFFERS NO OTHER CONDITIONS, EXPRESS OR IMPLIED, REGARDING ANY MATTER, INCLUDING (1) THE MERCHANTABILITY, SUITABILITY, FITNESS FOR A PARTICULAR USE OR PURPOSE, NON-INFRINGEMENT OR RESULTS TO BE DERIVED FROM THE USE OF THE RESTRICTED SITES OR ANY DATA SERVICE, SOFTWARE, HARDWARE, DELIVERABLE, WORK PRODUCT, DIGITAL COMMUNICATIONS OR OTHER MATERIALS RELATED TO THE RESTRICTED SITES, OR THE AVAILABILITY OF ANY OF THE FOREGOING; (2) WHETHER THE INFORMATION AVAILABLE ON THE RESTRICTED SITES IS TRUE, COMPLETE OR ACCURATE; OR (3) THAT TRANSACTION FUNDS WILL BE USED FOR ANY PARTICULAR PURPOSE AND SHALL NOT BE RESPONSIBLE FOR ANY MISUSE OR NON USE OF SUCH FUNDS BY THIRD PARTIES AFTER DONATIONS ARE MADE. FURTHER, KHAYAAL DOES NOT REPRESENT, COVENANT OR WARRANT THAT ACCESS TO OR SERVICES PROVIDED BY THE RESTRICTED SITES WILL BE UNINTERRUPTED, ERROR-FREE OR SECURE. USER ACKNOWLEDGES AND AGREES THAT THERE ARE RISKS INHERENT TO TRANSMITTING INFORMATION OVER AND STORING INFORMATION, INCLUDING DIGITAL COMMUNICATIONS, ON THE INTERNET AND OTHER COMPUTER NETWORKS AND THAT KHAYAAL IS NOT RESPONSIBLE FOR ANY LOSSES OF USER'S DATA, DIGIAL COMMUNICATIONS, CONFIDENTIALITY OR PRIVACY IN CONNECTION THEREWITH.    
+            EXCEPT AS OTHERWISE EXPRESSLY PROVIDED IN THESE TERMS AND CONDITIONS, KHAYAAL MAKES NO REPRESENTATIONS, COVENANTS OR WARRANTIES AND OFFERS NO OTHER CONDITIONS, EXPRESS OR IMPLIED, REGARDING ANY MATTER, INCLUDING 
             </p>
+            <ol>
+                <li>
+                THE MERCHANTABILITY, SUITABILITY, FITNESS FOR A PARTICULAR USE OR PURPOSE, NON-INFRINGEMENT OR RESULTS TO BE DERIVED FROM THE USE OF THE RESTRICTED SITES OR ANY DATA SERVICE, SOFTWARE, HARDWARE, DELIVERABLE, WORK PRODUCT, DIGITAL COMMUNICATIONS OR OTHER MATERIALS RELATED TO THE RESTRICTED SITES, OR THE AVAILABILITY OF ANY OF THE FOREGOING;
+                </li>
+                <li>
+                WHETHER THE INFORMATION AVAILABLE ON THE RESTRICTED SITES IS TRUE, COMPLETE OR ACCURATE; OR
+                </li>
+                <li>
+                THAT TRANSACTION FUNDS WILL BE USED FOR ANY PARTICULAR PURPOSE AND SHALL NOT BE RESPONSIBLE FOR ANY MISUSE OR NON USE OF SUCH FUNDS BY THIRD PARTIES AFTER DONATIONS ARE MADE. FURTHER, KHAYAAL DOES NOT REPRESENT, COVENANT OR WARRANT THAT ACCESS TO OR SERVICES PROVIDED BY THE RESTRICTED SITES WILL BE UNINTERRUPTED, ERROR-FREE OR SECURE. USER ACKNOWLEDGES AND AGREES THAT THERE ARE RISKS INHERENT TO TRANSMITTING INFORMATION OVER AND STORING INFORMATION, INCLUDING DIGITAL COMMUNICATIONS, ON THE INTERNET AND OTHER COMPUTER NETWORKS AND THAT KHAYAAL IS NOT RESPONSIBLE FOR ANY LOSSES OF USER'S DATA, DIGIAL COMMUNICATIONS, CONFIDENTIALITY OR PRIVACY IN CONNECTION THEREWITH.
+                </li>
+            </ol>
         </>        
     );
 }
 
-export default function Section_Limitations() {
+export function Section_Limitations() {
     return (
         <>
             <h3>Limitations of Liability</h3>
             <p>
-            TO THE FULLEST EXTENT PERMITTED UNDER APPLICABLE LAW, YOU UNDERSTAND AND AGREE THAT NO MEMBER OF THE KHAYAAL GROUP (AS DEFINED BELOW) SHALL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, PUNITIVE OR ANY OTHER DAMAGES RELATING TO OR RESULTING FROM (I) YOUR USE OR INABILITY TO USE THIS WEBSITE OR ANY OTHER WEBSITE YOU ACCESS THROUGH A LINK FROM THIS SITE, (II) FROM ANY ACTIONS WE TAKE OR FAIL TO TAKE AS A RESULT OF ELECTRONIC MAIL MESSAGES YOU SEND US; (III) THE PUBLISHING OF ANY INFORMATION, COMMENTS OR OTHER INFORMATION ON OR TO THE WEBSITE BY YOU OR ANY PERSON USING YOUR COMPUTER; OR (IV) THE USE BY ANY THIRD PARTY OF YOUR USER NAME OR PASSWORD. THESE INCLUDE DAMAGES FOR ERRORS, OMISSIONS, INTERRUPTIONS, DEFECTS, DELAYS, COMPUTER VIRUSES, YOUR LOSS OF PROFITS, LOSS OF DATA, UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA, AND OTHER TANGIBLE AND INTANGIBLE LOSSES. THIS LIMITATION APPLIES REGARDLESS OF WHETHER THE DAMAGES ARE CLAIMED UNDER THE TERMS OF A CONTRACT, AS OF NEGLIGENCE, OR OTHERWISE ARISE OUT OF OR IN CONNECTION WITH THE USE, INABILITY TO USE OR PERFORMANCE OF THE INFORMATION, SERVICES, PRODUCTS OR MATERIALS AVAILABLE FROM THIS WEBSITE, AND EVEN IF WE OR OUR REPRESENTATIVES HAVE BEEN NEGLIGENT OR HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS, OR THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU
+            TO THE FULLEST EXTENT PERMITTED UNDER APPLICABLE LAW, YOU UNDERSTAND AND AGREE THAT NO MEMBER OF THE KHAYAAL GROUP (AS DEFINED BELOW) SHALL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, PUNITIVE OR ANY OTHER DAMAGES RELATING TO OR RESULTING FROM 
+            </p>
+            <ol>
+                <li>
+                YOUR USE OR INABILITY TO USE THIS WEBSITE OR ANY OTHER WEBSITE YOU ACCESS THROUGH A LINK FROM THIS SITE,
+                </li>
+                <li>
+                FROM ANY ACTIONS WE TAKE OR FAIL TO TAKE AS A RESULT OF ELECTRONIC MAIL MESSAGES YOU SEND US;
+                </li>
+                <li>
+                THE PUBLISHING OF ANY INFORMATION, COMMENTS OR OTHER INFORMATION ON OR TO THE WEBSITE BY YOU OR ANY PERSON USING YOUR COMPUTER; OR
+                </li>
+                <li>
+                THE USE BY ANY THIRD PARTY OF YOUR USER NAME OR PASSWORD. THESE INCLUDE DAMAGES FOR ERRORS, OMISSIONS, INTERRUPTIONS, DEFECTS, DELAYS, COMPUTER VIRUSES, YOUR LOSS OF PROFITS, LOSS OF DATA, UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA, AND OTHER TANGIBLE AND INTANGIBLE LOSSES.
+                </li>
+            </ol>
+            <p>
+            THIS LIMITATION APPLIES REGARDLESS OF WHETHER THE DAMAGES ARE CLAIMED UNDER THE TERMS OF A CONTRACT, AS OF NEGLIGENCE, OR OTHERWISE ARISE OUT OF OR IN CONNECTION WITH THE USE, INABILITY TO USE OR PERFORMANCE OF THE INFORMATION, SERVICES, PRODUCTS OR MATERIALS AVAILABLE FROM THIS WEBSITE, AND EVEN IF WE OR OUR REPRESENTATIVES HAVE BEEN NEGLIGENT OR HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS, OR THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU
             </p>
         </>        
     );
 }
 
-export default function Section_Idemnification() {
+export function Section_Idemnification() {
     return (
         <>
             <h3>Idemnification</h3>
             <p>
-            You will indemnify and hold harmless Khayaal, its affiliates and their respective current, future or former officers, directors, partners, employees, agents, contractors, licensors, suppliers and their successors or assigns (collectively, the “Khayaal Group”) on demand, from and against any and all fines, penalties, liabilities, losses and other damages of any kind whatsoever (including attorneys' and experts' fees) incurred by any of the members of the Khayaal Group, and, if directed by Khayaal, shall defend the Khayaal Group against (i) all claims that any information, data or other materials provided or Published by you in connection with the website or these General Terms and Conditions, or use thereof by any member of the Khayaal Group, infringes, misappropriates or otherwise violates any patent, trademark, copyright, trade secret or other intellectual property, proprietary or privacy right of a third party, or that violates any law, rule or regulation; (ii) all claims arising from fraud, intentional misconduct, criminal acts or gross negligence by you; and (iii) all claims otherwise arising due to a failure by you to comply with any term or condition of these General Terms and Conditions.
+            You will indemnify and hold harmless Khayaal, its affiliates and their respective current, future or former officers, directors, partners, employees, agents, contractors, licensors, suppliers and their successors or assigns (collectively, the “Khayaal Group”) on demand, from and against any and all fines, penalties, liabilities, losses and other damages of any kind whatsoever (including attorneys' and experts' fees) incurred by any of the members of the Khayaal Group, and, if directed by Khayaal, shall defend the Khayaal Group against 
             </p>
+            <ol>
+                <li>
+                all claims that any information, data or other materials provided or Published by you in connection with the website or these General Terms and Conditions, or use thereof by any member of the Khayaal Group, infringes, misappropriates or otherwise violates any patent, trademark, copyright, trade secret or other intellectual property, proprietary or privacy right of a third party, or that violates any law, rule or regulation;
+                </li>
+                <li>
+                all claims arising from fraud, intentional misconduct, criminal acts or gross negligence by you; and
+                </li>
+                <li>
+                all claims otherwise arising due to a failure by you to comply with any term or condition of these General Terms and Conditions.
+                </li>
+            </ol>
         </>        
     );
 }
 
-export default function Section_FeaturedLinks() {
+export function Section_FeaturedLinks() {
     return (
         <>
             <h3>Featured Links</h3>
@@ -116,7 +155,7 @@ export default function Section_FeaturedLinks() {
 }
 
 
-export default function Section_Linking() {
+export function Section_Linking() {
     return (
         <>
             <h3>Linking</h3>
@@ -127,7 +166,7 @@ export default function Section_Linking() {
     );
 }
 
-export default function Section_Copyright() {
+export function Section_Copyright() {
     return (
         <>
             <h3>Copyright</h3>
@@ -138,7 +177,7 @@ export default function Section_Copyright() {
     );
 }
 
-export default function Section_TerminationPrivileges() {
+export function Section_TerminationPrivileges() {
     return (
         <>
             <h3>Termination of Privileges</h3>
@@ -149,7 +188,7 @@ export default function Section_TerminationPrivileges() {
     );
 }
 
-// export default function Section_ChangesToTerms() {
+// export function Section_ChangesToTerms() {
 //     return (
 //         <>
 //             <h3>Changes to These General Terms and Conditions</h3>
@@ -160,19 +199,30 @@ export default function Section_TerminationPrivileges() {
 //     );
 // }
 
-export default function Section_Jurisdiction() {
+export function Section_Jurisdiction() {
     return (
         <>
             <h3>Jurisdiction</h3>
             <p>
             This website is controlled and operated by Khayaal from its Central office in Lucknow, Uttar Pradesh State, India. The laws of Uttar Pradesh  State govern these General Terms and Conditions and your use of the website. We recognize that it is possible for you to obtain access to this website from any jurisdiction in the world, but we have no practical ability to prevent such access. This website has been designed to comply with the laws of Uttar Pradesh State, Delhi and India. Those who choose to access the website from other locations do so on their own initiative and are responsible for compliance with local laws if and to the extent local laws are applicable. If any material on this website, or your use of the website, is contrary to the laws of the place where you are when you access it, then the website is not intended for you and we ask you not to use the website. You may not use or export materials on this website in violation of Indian laws and regulations. This website is not intended to subject Khayaal to the laws or jurisdiction of any state, or territory other than the Uttar Pradesh & Delhi.
-If a dispute arises under these General Terms and conditions between you and Khayaal, such dispute shall be resolved in (i) Uttar Pradesh, India; and (ii) at the filing party's election, in either a small claims court or by final and binding arbitration administered by the National Arbitration Forum/Tribunal under their rules for consumer arbitrations.  All disputes in arbitration will be handled solely between the named parties and not on any representative or class basis.  ACCORDINGLY, YOU ACKNOWLEDGE THAT YOU MAY NOT HAVE ACCESS TO A COURT (OTHER THAN A SMALL CLAIMS COURT) OR JURY. Notwithstanding any other provision of these General Terms and Conditions, Khayaal may resort to court action for injunctive relief at any time if, in its good faith belief, the dispute resolution procedures described above would permit or cause irreparable injury to  Khayaal or any third party claiming against  Khayaal, due to delay arising out of such dispute resolution procedures.
+            <br></br>If a dispute arises under these General Terms and conditions between you and Khayaal, such dispute shall be resolved in 
+            </p>
+            <ol>
+                <li>
+                Uttar Pradesh, India; and 
+                </li>
+                <li>
+                at the filing party's election, in either a small claims court or by final and binding arbitration administered by the National Arbitration Forum/Tribunal under their rules for consumer arbitrations.
+                </li>
+            </ol>
+            <p>
+            All disputes in arbitration will be handled solely between the named parties and not on any representative or class basis.  ACCORDINGLY, YOU ACKNOWLEDGE THAT YOU MAY NOT HAVE ACCESS TO A COURT (OTHER THAN A SMALL CLAIMS COURT) OR JURY. Notwithstanding any other provision of these General Terms and Conditions, Khayaal may resort to court action for injunctive relief at any time if, in its good faith belief, the dispute resolution procedures described above would permit or cause irreparable injury to  Khayaal or any third party claiming against  Khayaal, due to delay arising out of such dispute resolution procedures.
             </p>
         </>        
     );
 }
 
-export default function Section_Miscellaneous() {
+export function Section_Miscellaneous() {
     return (
         <>
             <h3>Miscellaneous</h3>
@@ -183,21 +233,21 @@ export default function Section_Miscellaneous() {
     );
 }
 
-export default function Section_Contact() {
+export function Section_Contact() {
     return (
         <>
             <h3>How to Contact Us</h3>
             <p>
             If you have any questions or comments about these General Terms and Conditions or this website, please Contact Us or write to us at:
-            3/60, Khayaal Foundation,  Gomti Nagar, Vishal Khand, Gomti Nagar Rd, Lucknow- 226010
-            Email id: team@khayaal.org
-            Call us on Tel: 9876543210
+            <br></br>3/60, Khayaal Foundation,  Gomti Nagar, Vishal Khand, Gomti Nagar Rd, Lucknow- 226010
+            <br></br>Email id: team@khayaal.org
+            <br></br>Call us on Tel: 9876543210
             </p>
         </>        
     );
 }
 
-// export default function Section_RestrictedSites() {
+// export function Section_RestrictedSites() {
 //     return (
 //         <>
 //             <h3>RESTRICTED SITES TERMS AND CONDITIONS</h3>
@@ -208,7 +258,7 @@ export default function Section_Contact() {
 //     );
 // }
 
-export default function Section_RegistrationTerms() {
+export function Section_RegistrationTerms() {
     return (
         <>
             <h3>REGISTRATION; TRANSACTIONS; TERM OF REGISTRATION</h3>
@@ -232,7 +282,7 @@ export default function Section_RegistrationTerms() {
     );
 }
 
-export default function Section_Notices() {
+export function Section_Notices() {
     return (
         <>
             <h3>Notices</h3>
@@ -243,7 +293,7 @@ export default function Section_Notices() {
     );
 }
 
-// export default function Section_ModificationRestrictedSites() {
+// export function Section_ModificationRestrictedSites() {
 //     return (
 //         <>
 //             <h3>MODIFICATIONS TO THE RESTRICTED SITES / TERMS AND CONDITIONS</h3>
@@ -254,18 +304,38 @@ export default function Section_Notices() {
 //     );
 // }
 
-export default function Section_Representations() {
+export function Section_Representations() {
     return (
         <>
             <h3>REPRESENTATIONS, COVENANTS AND WARRANTIES</h3>
             <p>
-            User represents, covenants and warrants to Khayaal that (1) these Restricted Sites Terms and Conditions have been executed and delivered by User and constitute a valid and binding agreement of User, enforceable against User in accordance with their terms; (2) User will not access or use the Restricted Sites except as expressly permitted by these Restricted Sites Terms and Conditions and any additional instructions, guidelines or policies issued by Khayaal, including those posted on the Khayaal website (https://khayaal.org); (3) User will access and use the Restricted Sites in full compliance with applicable Law (as defined in the section title “COMPLIANCE” below); (4) User is at least eighteen (18) years old, or, if younger than eighteen (18) years old, User is of an age sufficient to execute a legally enforceable agreement on his or her own behalf in the applicable jurisdiction; (5) all of the information, data and other materials provided by User in support of User's application for registration are accurate and truthful in all respects; and (6) User is the rightful owner of the any account opened it his or her name, included but not limited to Payment Accounts, and is authorized to commit funds from the relevant accounts to Khayaal for purposes of conducting Transactions.
+            User represents, covenants and warrants to Khayaal that
             </p>
+            <ol>
+                <li>
+                these Restricted Sites Terms and Conditions have been executed and delivered by User and constitute a valid and binding agreement of User, enforceable against User in accordance with their terms;
+                </li>
+                <li>
+                User will not access or use the Restricted Sites except as expressly permitted by these Restricted Sites Terms and Conditions and any additional instructions, guidelines or policies issued by Khayaal, including those posted on the Khayaal website (https://khayaal.org);
+                </li>
+                <li>
+                User will access and use the Restricted Sites in full compliance with applicable Law (as defined in the section title “COMPLIANCE” below);
+                </li>
+                <li>
+                User is at least eighteen (18) years old, or, if younger than eighteen (18) years old, User is of an age sufficient to execute a legally enforceable agreement on his or her own behalf in the applicable jurisdiction;
+                </li>
+                <li>
+                all of the information, data and other materials provided by User in support of User's application for registration are accurate and truthful in all respects; and
+                </li>
+                <li>
+                User is the rightful owner of the any account opened it his or her name, included but not limited to Payment Accounts, and is authorized to commit funds from the relevant accounts to Khayaal for purposes of conducting Transactions.
+                </li>
+            </ol>
         </>        
     );
 }
 
-// export default function Section_Disclaimer() {
+// export function Section_Disclaimer() {
 //     return (
 //         <>
 //             <h3>Disclaimer</h3>
@@ -276,18 +346,29 @@ export default function Section_Representations() {
 //     );
 // }
 
-export default function Section_Compliance() {
+export function Section_Compliance() {
     return (
         <>
             <h3>Compliance</h3>
             <p>
-            User shall use the Restricted Sites in strict compliance with (1) these Restricted Sites Terms and Conditions; (2) any additional instructions, guidelines or policies issued by Khayaal, including those posted on the Restricted Sites or on the Khayaal website (https://khayaal.org); and (3) all applicable laws, rules and regulations (collectively, “Laws”).
+            User shall use the Restricted Sites in strict compliance with
             </p>
+            <ol>
+                <li>
+                these Restricted Sites Terms and Conditions;
+                </li>
+                <li>
+                any additional instructions, guidelines or policies issued by Khayaal, including those posted on the Restricted Sites or on the Khayaal website (https://khayaal.org); and
+                </li>
+                <li>
+                all applicable laws, rules and regulations (collectively, “Laws”).
+                </li>
+            </ol>
         </>        
     );
 }
 
-export default function Section_Contractors() {
+export function Section_Contractors() {
     return (
         <>
             <h3>Use of Contactors</h3>
@@ -298,13 +379,27 @@ export default function Section_Contractors() {
     );
 }
 
-export default function Section_RestrictedSitesOwner() {
+export function Section_RestrictedSitesOwner() {
     return (
         <>
             <h3>INTELLECTUAL PROPERTY RIGHTS; RESTRICTIONS ON USE</h3>
             <p><b>Ownership of the Restricted Sites and Related Data</b></p>
             <p>
-            As between Khayaal and User (collectively, “Parties”), Khayaal owns and will retain ownership of all rights, title and interest in and to the Restricted Sites, including (1) all content on the Restricted Sites developed by Khayaal or its third-party licensors, including any derivative works of the Restricted Sites and any such content; (2) any data presented on or by the Restricted Sites or otherwise uploaded, posted, or stored by Khayaal and its third-party providers, except for personal information that User submits to Khayaal through the Restricted Sites and except as noted in the section titled “DIGITAL CORRESPONDENCE”; and (3) any intellectual property or other proprietary rights comprising any of the foregoing (collectively, “Khayaal IP”). Neither these Restricted Sites Terms and Conditions nor any disclosure made hereunder grant any license to User under any Khayaal IP.
+            As between Khayaal and User (collectively, “Parties”), Khayaal owns and will retain ownership of all rights, title and interest in and to the Restricted Sites, including 
+            </p>
+            <ol>
+                <li>
+                all content on the Restricted Sites developed by Khayaal or its third-party licensors, including any derivative works of the Restricted Sites and any such content;
+                </li>
+                <li>
+                any data presented on or by the Restricted Sites or otherwise uploaded, posted, or stored by Khayaal and its third-party providers, except for personal information that User submits to Khayaal through the Restricted Sites and except as noted in the section titled “DIGITAL CORRESPONDENCE”; and
+                </li>
+                <li>
+                any intellectual property or other proprietary rights comprising any of the foregoing (collectively, “Khayaal IP”).
+                </li>
+            </ol>
+            <p>
+            Neither these Restricted Sites Terms and Conditions nor any disclosure made hereunder grant any license to User under any Khayaal IP.
             </p>
             <p><b>Use of the Restricted Sites</b></p>
             <p>
@@ -317,7 +412,7 @@ export default function Section_RestrictedSitesOwner() {
 
 
 
-export default function Section_PrivacyNotice() {
+export function Section_PrivacyNotice() {
     return (
         <>
             <h3>Privacy Notice/Policy</h3>
@@ -328,7 +423,7 @@ export default function Section_PrivacyNotice() {
     );
 }
 
-export default function Section_Suspension() {
+export function Section_Suspension() {
     return (
         <>
             <h3>Suspention</h3>
@@ -338,28 +433,71 @@ export default function Section_Suspension() {
             <h3>Termination by Khayaal</h3>
             <p>
             Khayaal may terminate User's registration, in whole or in part, as follows:
-For Cause. Immediately (1) in order to comply with applicable Law or instructions from any governmental agency or authority; (2) if Khayaal, in its sole discretion, suspects that User is using the Restricted Sites in a manner not permitted by these Restricted Site Terms and Conditions; or (3) upon any breach of these Restricted Site Terms and Conditions, the Khayaal Website General Terms and Conditions or the Khayaal Privacy Policy by User.
-For Convenience. For convenience, upon Notice by Khayaal to User, which may occur after an unsuccessful login attempt by User.
-Effect of Termination/Survival of Selected Provisions
-Effect of Termination. Upon the expiration or earlier termination of User's registration, for any reason (i) user will no longer be authorized to access the Restricted Sites or otherwise use any of the features or services offered by the Restricted Sites; (ii) Khayaal may delete any data associated with User's accounts, including but not limited to, any content in User's Account; and (iii) all rights and obligations of the Parties under these Restricted Sites Terms and Conditions shall expire, except those rights and obligations under those sections specifically designated in  the sub-section titled “SURVIVAL” immediately below.
-Survival. Notwithstanding the expiration or earlier termination of User's registration to the Restricted Sites, the following sections of the Restricted Sites Terms and Conditions shall survive any such expiration or termination: “DISCLAIMER”; “LIABILITY”; “INDEMNITIES”; “DISPUTE RESOLUTION”; AND, “GENERAL”.
+            <br></br>For Cause. Immediately 
+            </p>
+            <ol>
+                <li>
+                in order to comply with applicable Law or instructions from any governmental agency or authority;
+                </li>
+                <li>
+                if Khayaal, in its sole discretion, suspects that User is using the Restricted Sites in a manner not permitted by these Restricted Site Terms and Conditions; or
+                </li>
+                <li>
+                upon any breach of these Restricted Site Terms and Conditions, the Khayaal Website General Terms and Conditions or the Khayaal Privacy Policy by User.
+                </li>
+            </ol>
+            <p>
+            <br></br>For Convenience. For convenience, upon Notice by Khayaal to User, which may occur after an unsuccessful login attempt by User.
+            </p>
+            <h3>Effect of Termination/Survival of Selected Provisions</h3>
+            <p>
+            Effect of Termination. Upon the expiration or earlier termination of User's registration, for any reason 
+            </p>
+            <ol>
+                <li>
+                user will no longer be authorized to access the Restricted Sites or otherwise use any of the features or services offered by the Restricted Sites;
+                </li>
+                <li>
+                Khayaal may delete any data associated with User's accounts, including but not limited to, any content in User's Account; and
+                </li>
+                <li>
+                all rights and obligations of the Parties under these Restricted Sites Terms and Conditions shall expire, except those rights and obligations under those sections specifically designated in  the sub-section titled “SURVIVAL” immediately below.
+                </li>
+            </ol>
+            <h3>Survival</h3>
+            <p>
+            <br></br>Notwithstanding the expiration or earlier termination of User's registration to the Restricted Sites, the following sections of the Restricted Sites Terms and Conditions shall survive any such expiration or termination: “DISCLAIMER”; “LIABILITY”; “INDEMNITIES”; “DISPUTE RESOLUTION”; AND, “GENERAL”.
             </p>
         </>        
     );
 }
 
-export default function Section_P_Disclaimer() {
+export function Section_P_Disclaimer() {
     return (
         <>
             <h3>Disclaimer</h3>
             <p>
-            EXCEPT AS OTHERWISE EXPRESSLY PROVIDED IN THESE TERMS AND CONDITIONS, KHAYAAL MAKES NO REPRESENTATIONS, COVENANTS OR WARRANTIES AND OFFERS NO OTHER CONDITIONS, EXPRESS OR IMPLIED, REGARDING ANY MATTER, INCLUDING (1) THE MERCHANTABILITY, SUITABILITY, FITNESS FOR A PARTICULAR USE OR PURPOSE, NON-INFRINGEMENT OR RESULTS TO BE DERIVED FROM THE USE OF THE RESTRICTED SITES OR ANY DATA SERVICE, SOFTWARE, HARDWARE, DELIVERABLE, WORK PRODUCT, DIGITAL COMMUNICATIONS OR OTHER MATERIALS RELATED TO THE RESTRICTED SITES, OR THE AVAILABILITY OF ANY OF THE FOREGOING; (2) WHETHER THE INFORMATION AVAILABLE ON THE RESTRICTED SITES IS TRUE, COMPLETE OR ACCURATE; OR (3) THAT TRANSACTION FUNDS WILL BE USED FOR ANY PARTICULAR PURPOSE AND SHALL NOT BE RESPONSIBLE FOR ANY MISUSE OR NON USE OF SUCH FUNDS BY THIRD PARTIES AFTER DONATIONS ARE MADE. FURTHER, KHAYAAL DOES NOT REPRESENT, COVENANT OR WARRANT THAT ACCESS TO OR SERVICES PROVIDED BY THE RESTRICTED SITES WILL BE UNINTERRUPTED, ERROR-FREE OR SECURE. USER ACKNOWLEDGES AND AGREES THAT THERE ARE RISKS INHERENT TO TRANSMITTING INFORMATION OVER AND STORING INFORMATION, INCLUDING DIGITAL COMMUNICATIONS, ON THE INTERNET AND OTHER COMPUTER NETWORKS AND THAT KHAYAAL IS NOT RESPONSIBLE FOR ANY LOSSES OF USER'S DATA, DIGIAL COMMUNICATIONS, CONFIDENTIALITY OR PRIVACY IN CONNECTION THEREWITH.
+            EXCEPT AS OTHERWISE EXPRESSLY PROVIDED IN THESE TERMS AND CONDITIONS, KHAYAAL MAKES NO REPRESENTATIONS, COVENANTS OR WARRANTIES AND OFFERS NO OTHER CONDITIONS, EXPRESS OR IMPLIED, REGARDING ANY MATTER, INCLUDING 
+            </p>
+            <ol>
+                <li>
+                THE MERCHANTABILITY, SUITABILITY, FITNESS FOR A PARTICULAR USE OR PURPOSE, NON-INFRINGEMENT OR RESULTS TO BE DERIVED FROM THE USE OF THE RESTRICTED SITES OR ANY DATA SERVICE, SOFTWARE, HARDWARE, DELIVERABLE, WORK PRODUCT, DIGITAL COMMUNICATIONS OR OTHER MATERIALS RELATED TO THE RESTRICTED SITES, OR THE AVAILABILITY OF ANY OF THE FOREGOING;
+                </li>
+                <li>
+                WHETHER THE INFORMATION AVAILABLE ON THE RESTRICTED SITES IS TRUE, COMPLETE OR ACCURATE; OR
+                </li>
+                <li>
+                THAT TRANSACTION FUNDS WILL BE USED FOR ANY PARTICULAR PURPOSE AND SHALL NOT BE RESPONSIBLE FOR ANY MISUSE OR NON USE OF SUCH FUNDS BY THIRD PARTIES AFTER DONATIONS ARE MADE.
+                </li>
+            </ol>
+            <p>
+            FURTHER, KHAYAAL DOES NOT REPRESENT, COVENANT OR WARRANT THAT ACCESS TO OR SERVICES PROVIDED BY THE RESTRICTED SITES WILL BE UNINTERRUPTED, ERROR-FREE OR SECURE. USER ACKNOWLEDGES AND AGREES THAT THERE ARE RISKS INHERENT TO TRANSMITTING INFORMATION OVER AND STORING INFORMATION, INCLUDING DIGITAL COMMUNICATIONS, ON THE INTERNET AND OTHER COMPUTER NETWORKS AND THAT KHAYAAL IS NOT RESPONSIBLE FOR ANY LOSSES OF USER'S DATA, DIGIAL COMMUNICATIONS, CONFIDENTIALITY OR PRIVACY IN CONNECTION THEREWITH.
             </p>
         </>        
     );
 }
 
-export default function Section_P_LimitationsOfLiability() {
+export function Section_P_LimitationsOfLiability() {
     return (
         <>
             <h3>Limitations Of Liabilit</h3>
@@ -370,7 +508,7 @@ export default function Section_P_LimitationsOfLiability() {
     );
 }
 
-export default function Section_Remedies() {
+export function Section_Remedies() {
     return (
         <>
             <h3>Remedies & Claims</h3>
@@ -380,37 +518,64 @@ export default function Section_Remedies() {
             </p>
             <h3>Claims</h3>
             <p>
-            No action arising out of, in connection with, or relating to these Restricted Sites Terms and Conditions or the subject of these Restricted Sites Terms and Conditions shall be brought by User more than one (1) year after the accrual of the cause of action.  This period shall not be extended for any reason, except by the written consent of both parties.  All statutes or provision of law which would toll or otherwise affect the running of the period of limitations are hereby waived, and no such statute or provision of law shall operate to extend the period limited in this paragraph.
+            No action arising out of, in connection with, or relating to these Restricted Sites Terms and Conditions or the subject of these Restricted Sites Terms and Conditions shall be brought by User more than one 
             </p>
+            <ol>
+                <li>
+                year after the accrual of the cause of action.  This period shall not be extended for any reason, except by the written consent of both parties.  All statutes or provision of law which would toll or otherwise affect the running of the period of limitations are hereby waived, and no such statute or provision of law shall operate to extend the period limited in this paragraph.
+                </li>
+            </ol>
         </>        
     );
 }
 
 
-export default function Section_P_Indemnities() {
+export function Section_P_Indemnities() {
     return (
         <>
             <h3>Indemnity by User</h3>
             <p>
-            User will indemnify and hold harmless Khayaal, its affiliates and their respective current, future or former officers, directors, partners, employees, agents, contractors, and their successors or assigns (collectively, the “Khayaal Group”) on demand, from and against any and all fines, penalties, liabilities, losses and other damages of any kind whatsoever (including attorneys' and experts' fees) incurred by any of the members of the Khayaal Group, and, if directed by Khayaal, shall defend the Khayaal Group against (1) all claims that any information, data or other materials provided by User in connection with the  Restricted Sites (including, but not limited to, User's application for registration to access and use the Restricted Sites) or these Restricted Sites  Terms and Conditions, or use thereof by any member of the Khayaal Group, infringes, misappropriates or otherwise violates any patent, trademark, copyright, trade secret or other intellectual property or proprietary right of a third party, or that violates any Law; (2) all claims arising from fraud, intentional misconduct, criminal acts or gross negligence by User; and (3) all claims otherwise arising due to a failure by User to comply with any term or condition of these Restricted Sites Terms and Conditions, including any additional instructions, guidelines or policies issued by Khayaal, including those posted on the Khayaal website (https://khayaal.org).
+            User will indemnify and hold harmless Khayaal, its affiliates and their respective current, future or former officers, directors, partners, employees, agents, contractors, and their successors or assigns (collectively, the “Khayaal Group”) on demand, from and against any and all fines, penalties, liabilities, losses and other damages of any kind whatsoever (including attorneys' and experts' fees) incurred by any of the members of the Khayaal Group, and, if directed by Khayaal, shall defend the Khayaal Group against 
             </p>
+            <ol>
+                <li>
+                all claims that any information, data or other materials provided by User in connection with the  Restricted Sites (including, but not limited to, User's application for registration to access and use the Restricted Sites) or these Restricted Sites  Terms and Conditions, or use thereof by any member of the Khayaal Group, infringes, misappropriates or otherwise violates any patent, trademark, copyright, trade secret or other intellectual property or proprietary right of a third party, or that violates any Law;
+                </li>
+                <li>
+                all claims arising from fraud, intentional misconduct, criminal acts or gross negligence by User; and
+                </li>
+                <li>
+                all claims otherwise arising due to a failure by User to comply with any term or condition of these Restricted Sites Terms and Conditions, including any additional instructions, guidelines or policies issued by Khayaal, including those posted on the Khayaal website (https://khayaal.org).
+                </li>
+            </ol>
         </>        
     );
 }
 
-export default function Section_Dispute() {
+export function Section_Dispute() {
     return (
         <>
             <h3>Dispute Resolution</h3>
             <p>
             This website is controlled and operated by Khayaal from its Central office in Lucknow, Uttar Pradesh State, India. The laws of Uttar Pradesh  State govern these General Terms and Conditions and your use of the website. We recognize that it is possible for you to obtain access to this website from any jurisdiction in the world, but we have no practical ability to prevent such access. This website has been designed to comply with the laws of Uttar Pradesh State, Delhi and India. Those who choose to access the website from other locations do so on their own initiative and are responsible for compliance with local laws if and to the extent local laws are applicable. If any material on this website, or your use of the website, is contrary to the laws of the place where you are when you access it, then the website is not intended for you and we ask you not to use the website. You may not use or export materials on this website in violation of Indian laws and regulations. This website is not intended to subject Khayaal to the laws or jurisdiction of any state, or territory other than the Uttar Pradesh & Delhi.
-If a dispute arises under these General Terms and conditions between you and Khayaal, such dispute shall be resolved in (i) Uttar Pradesh, India; and (ii) at the filing party's election, in either a small claims court or by final and binding arbitration administered by the National Arbitration Forum/Tribunal under their rules for consumer arbitrations.  All disputes in arbitration will be handled solely between the named parties and not on any representative or class basis.  ACCORDINGLY, YOU ACKNOWLEDGE THAT YOU MAY NOT HAVE ACCESS TO A COURT (OTHER THAN A SMALL CLAIMS COURT) OR JURY. Notwithstanding any other provision of these General Terms and Conditions, Khayaal may resort to court action for injunctive relief at any time if, in its good faith belief, the dispute resolution procedures described above would permit or cause irreparable injury to  Khayaal or any third party claiming against  Khayaal, due to delay arising out of such dispute resolution procedures.
+            <br></br>If a dispute arises under these General Terms and conditions between you and Khayaal, such dispute shall be resolved in 
+            </p>
+            <ol>
+                <li>
+                Uttar Pradesh, India; and 
+                </li>
+                <li>
+                at the filing party's election, in either a small claims court or by final and binding arbitration administered by the National Arbitration Forum/Tribunal under their rules for consumer arbitrations.
+                </li>
+            </ol>
+            <p>
+            All disputes in arbitration will be handled solely between the named parties and not on any representative or class basis.  ACCORDINGLY, YOU ACKNOWLEDGE THAT YOU MAY NOT HAVE ACCESS TO A COURT (OTHER THAN A SMALL CLAIMS COURT) OR JURY. Notwithstanding any other provision of these General Terms and Conditions, Khayaal may resort to court action for injunctive relief at any time if, in its good faith belief, the dispute resolution procedures described above would permit or cause irreparable injury to  Khayaal or any third party claiming against  Khayaal, due to delay arising out of such dispute resolution procedures.
             </p>
         </>        
     );
 }
 
-export default function Section_General() {
+export function Section_General() {
     return (
         <>
             <h3>Entire Agreement, Amendments and Modifications</h3>
@@ -419,8 +584,31 @@ export default function Section_General() {
             </p>
             <h3>Force Majeure</h3>
             <p>
-            Khayaal will be excused from performance under these Restricted Sites Terms and Conditions for any period that it is prevented from or delayed in performing any obligations pursuant to these Restricted Sites Terms and Conditions, in whole or in part, as a result of a Force Majeure Event. For purposes of this Section , “Force Majeure Event” means an event or series of events caused by or resulting from any of the following: (1) weather conditions or other elements of nature or acts of God; (2) acts of war, terrorism, insurrection, riot, civil disorder or rebellion; (3) quarantines or embargoes; (4) labour strikes; (4) telecommunications, network, computer, server or Internet downtime; (5) unauthorized access to Khayaal's information technology systems by third parties; or (6) other causes beyond the reasonable control of Khayaal.  
+            Khayaal will be excused from performance under these Restricted Sites Terms and Conditions for any period that it is prevented from or delayed in performing any obligations pursuant to these Restricted Sites Terms and Conditions, in whole or in part, as a result of a Force Majeure Event. For purposes of this Section , “Force Majeure Event” means an event or series of events caused by or resulting from any of the following: 
             </p>
+            <ol>
+                <li>
+                weather conditions or other elements of nature or acts of God; 
+                </li>
+                <li>
+                acts of war, terrorism, insurrection, riot, civil disorder or rebellion;
+                </li>
+                <li>
+                quarantines or embargoes;
+                </li>
+                <li>
+                labour strikes;
+                </li>
+                <li>
+                telecommunications, network, computer, server or Internet downtime;
+                </li>
+                <li>
+                unauthorized access to Khayaal's information technology systems by third parties; or 
+                </li>
+                <li>
+                other causes beyond the reasonable control of Khayaal.
+                </li>
+            </ol>
             <h3>Severabilty</h3>
             <p>
             If any provision of these Restricted Sites Terms and Conditions shall be held to be invalid, illegal or unenforceable, the validity, legality and enforceability of the remaining provisions shall not in any way be affected or impaired thereby, and such provision shall be deemed to be restated to reflect the Parties' original intentions as nearly as possible in accordance with applicable Law(s).

@@ -121,13 +121,13 @@
   justify-content: center;
 }
 
-.footer-links-container a:hover {
+.footer-links-container span:hover {
   color: var(--secondary-text-color);
   transform: translateY(-2px);
   cursor: pointer;
 }
 
-.footer-links-container a {
+.footer-links-container span {
   color: var(--primary-text-color);
   font-size: 1rem;
   margin: 0.5vmax;

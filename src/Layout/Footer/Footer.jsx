@@ -11,17 +11,22 @@ import LegalDocModal from '../../Components/LegalDocModal/LegalDocModal';
 
 
 function Footer() {
-    const [ IsOpen, setIsOpen ] = React.useState(true)
-    const legalDocLinks = {
-        privacy: "https://docs.google.com/document/d/1qLowbQwnAOD4AKuhays48RdhkH6BM9f7/edit?usp=drivesdk&ouid=105560095203525235771&rtpof=true&sd=true",
-        termsAndConditions: "https://docs.google.com/document/d/1DilKI5Vw98dpILeGXOcADehPVceo-cj0/edit?usp=drivesdk&ouid=105560095203525235771&rtpof=true&sd=true"
-    }
+    const [ isOpen, setIsOpen ] = React.useState(false)
+    const [ selectedDoc, setSelectedDoc ] = React.useState(null)
+    // const legalDocLinks = {
+    //     privacy: "https://docs.google.com/document/d/1qLowbQwnAOD4AKuhays48RdhkH6BM9f7/edit?usp=drivesdk&ouid=105560095203525235771&rtpof=true&sd=true",
+    //     termsAndConditions: "https://docs.google.com/document/d/1DilKI5Vw98dpILeGXOcADehPVceo-cj0/edit?usp=drivesdk&ouid=105560095203525235771&rtpof=true&sd=true"
+    // }
     const imgList = [{ img: FbLogo, link: "https://facebook.com/teamkhayaal" }, { img: IgLogo, link: "https://www.instagram.com/teamkhayaal/" }, { img: LinkedInLogo, link: "https://www.linkedin.com/company/khayaaldeliveringhope/" }, { img: TwitterLogo, link: "https://twitter.com/teamkhayaal" }];
     const contactDetails = {
         title: "Contact Us",
         phone: "9161834999",
         email: "team@khayaal.org",
         address: "3/60, Khayaal Foundation, Gomti Nagar, Vishal Khand, Gomti Nagar Rd, Lucknow 226010"
+    }
+    const handleOpen = (event) => {
+        setSelectedDoc(event.target.innerText);
+        setIsOpen(true);
     }
     const handleClose = () => {
         setIsOpen(false);
@@ -65,10 +70,10 @@ function Footer() {
                 </div>
             </div>
             <div className='footer-links-container'>
-                <a target="_blank" rel="noopener noreferrer" href={legalDocLinks.privacy}>Privacy</a>
-                <a target="_blank" rel="noopener noreferrer" href={legalDocLinks.termsAndConditions}>Terms & Conditions</a>
+                <span onClick={handleOpen}>Privacy</span>
+                <span onClick={handleOpen}>Terms & Conditions</span>
             </div>
-            <LegalDocModal isOpen={IsOpen} onClose={handleClose} />
+            <LegalDocModal isOpen={isOpen} handleClose={handleClose} legalDoc={selectedDoc} />
         </div>
     )
 }
