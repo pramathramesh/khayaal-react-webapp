@@ -104,3 +104,20 @@
   padding: 1rem;
   overflow-y: auto;
 }
+
+@media (orientation: landscape) {
+  .modal-mobile-sections {
+    top: 0.9rem;
+    left: 1rem;
+  }
+
+  .modal-close {
+    bottom: 0.9rem;
+    right: 1rem;
+  }
+
+  .modal-content {
+    width: 90%;
+    height: 65%;
+  }
+}

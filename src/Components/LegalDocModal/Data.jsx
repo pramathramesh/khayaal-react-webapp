@@ -28,16 +28,16 @@ export function Section_UseOfWebsite() {
     );
 }
 
-export function Section_Privacy() {
-    return (
-        <>
-            <h3>Privacy Policy</h3>
-            <p>
-            You explicitly consent to the collection, hosting, use, disclosure and other processing or handling of information as described in the Khayaal's Privacy Policy located at https://khayaal.org as such policy may be amended by Khayaal in its sole discretion from time to time. 
-            </p>
-        </>        
-    );
-}
+// export function Section_Privacy() {
+//     return (
+//         <>
+//             <h3>Privacy Policy</h3>
+//             <p>
+//             You explicitly consent to the collection, hosting, use, disclosure and other processing or handling of information as described in the Khayaal's Privacy Policy located at https://khayaal.org as such policy may be amended by Khayaal in its sole discretion from time to time. 
+//             </p>
+//         </>        
+//     );
+// }
 
 export function Section_Accuracy() {
     return (
@@ -265,7 +265,7 @@ export function Section_RegistrationTerms() {
             <p><b>Transactions</b></p>
             <ol>
                 <li>
-                <i>Method of Payment,</i>. In order to complete a Transaction, user may need to provide a method of payment (“Payment Account”) as specified during the registration process. User may execute a single Transaction at a time or execute multiple Transactions on a recurring basis (e.g., monthly, quarterly, annually, etc.), depending upon the options selected during the Transaction process. You authorize Khayaal to charge your Payment Account at the frequency and in the amounts designated by you during the Transaction process. All fees will be billed via the method of payment you designate during the Transaction process. Once submitted, amounts paid are generally non-refundable. However, in the event your donation was not intended for Khayaal, you may request a refund. Khayaal may periodically need to increase the donation amount and in such cases, Khayaal  will announce the increase before any additional deductions are made. You will always have the option to decline an increase.
+                <i>Method of Payment,</i>. In order to complete a Transaction, user may need to provide a method of payment (“Payment Account”) as specified during the registration process. User may execute a single Transaction at a time or execute multiple Transactions on a recurring basis (e.g., monthly, quarterly, annually, etc.), depending upon the options selected during the Transaction process. You authorize Khayaal to charge your Payment Account at the frequency and in the amounts designated by you during the Transaction process. All fees will be billed via the method of payment you designate during the Transaction process.
                 </li>
                 <li>
                 <i>Donations,</i>. User acknowledges and agrees that Khayaal did not provide any goods or services to User personally in consideration for any donations made by User as part of a Transaction. Khayaal will apply User's donations in accordance with its internal policies and procedures.
