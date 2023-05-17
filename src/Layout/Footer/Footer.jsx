@@ -13,10 +13,6 @@ import LegalDocModal from '../../Components/LegalDocModal/LegalDocModal';
 function Footer() {
     const [ isOpen, setIsOpen ] = React.useState(false)
     const [ selectedDoc, setSelectedDoc ] = React.useState(null)
-    // const legalDocLinks = {
-    //     privacy: "https://docs.google.com/document/d/1qLowbQwnAOD4AKuhays48RdhkH6BM9f7/edit?usp=drivesdk&ouid=105560095203525235771&rtpof=true&sd=true",
-    //     termsAndConditions: "https://docs.google.com/document/d/1DilKI5Vw98dpILeGXOcADehPVceo-cj0/edit?usp=drivesdk&ouid=105560095203525235771&rtpof=true&sd=true"
-    // }
     const imgList = [{ img: FbLogo, link: "https://facebook.com/teamkhayaal" }, { img: IgLogo, link: "https://www.instagram.com/teamkhayaal/" }, { img: LinkedInLogo, link: "https://www.linkedin.com/company/khayaaldeliveringhope/" }, { img: TwitterLogo, link: "https://twitter.com/teamkhayaal" }];
     const contactDetails = {
         title: "Contact Us",
@@ -25,6 +21,7 @@ function Footer() {
         address: "3/60, Khayaal Foundation, Gomti Nagar, Vishal Khand, Gomti Nagar Rd, Lucknow 226010"
     }
     const handleOpen = (event) => {
+        event.preventDefault();
         setSelectedDoc(event.target.innerText);
         setIsOpen(true);
     }
