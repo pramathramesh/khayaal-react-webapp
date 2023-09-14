@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import KhayaalLogo from '../../assets/Logo/khayaal_logo.png';
 import { motion } from 'framer-motion';
 
-export default function (props) {
+export default function Sidebar(props) {
     const dropIn = {
         hidden: {
             y: "-100vh",

@@ -6,7 +6,7 @@ const EducationCampaign = () => {
     return (
         <div className="main-activity-banner">
             <div className="top-image-container">
-                <img src={campaignBannerImages[0]} alt="Education Campaign Image" />
+                <img src={campaignBannerImages[0]} alt="Education Campaign" />
             </div>
             <div className="top-heading">
                 <p>Education Campaign</p>

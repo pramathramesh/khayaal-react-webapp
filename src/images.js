@@ -1,4 +1,3 @@
-import rohan from './assets/Members/rohan.jpg';
 import sharmishtha from './assets/Members/sharmishtha_new.jpg';
 import pallak from './assets/Members/pallak.jpg';
 import uday from './assets/Members/uday.png';
@@ -20,7 +19,7 @@ import ActivityThree from './assets/activity/women-at-khayaal.png';
 
 // Homepage images
 const memberImages = [
-    uday, sharmishtha, rohan,
+    uday, sharmishtha,
     pallak,viraj,janvi,
     sanika,iram,mohammad,
     khushi,divyanshi

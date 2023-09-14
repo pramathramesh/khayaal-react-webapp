@@ -13,7 +13,7 @@ const ParentLeader1 = (props) => {
                 <LeaderDescription nameText={name} bold={props.bold} positionText={position} descText={desec}/>
             </div>
 
-            <img className="leadimage" src={imageurl} alt="Leader's Image" />
+            <img className="leadimage" src={imageurl} alt="Leader" />
           </div>
     );
 };

@@ -7,7 +7,7 @@ const FAB = (props) => {
     return (
         <div className="fab-container">
             <div className="fab fab-icon-holder">
-                <img src={FAB_icon} />
+                <img src={FAB_icon} alt='FAB' />
             </div>
             <ul className="fab-options">
                 {FAB_links.map((link, index)=>{
