@@ -51,7 +51,7 @@ function Footer() {
                     {/* Adding Parent group name temporarily in footer 
                     Later to be added in a separate Page */}
                     {/* <br style={{lineHeight: "0px"}}/> */}
-                    <td style={{paddingTop: "2px"}} />
+                    <span style={{paddingTop: "2px"}} />
                     <span>
                         <img src={emailIcon} alt='' style={{width: "1.3rem", height: "1.3rem", visibility: 'hidden'}} />
                         Bharat Gram Udhyog Vikas Samiti

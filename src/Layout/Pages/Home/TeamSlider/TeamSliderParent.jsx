@@ -2,7 +2,7 @@ import TeamSlider from './TeamSlider';
 import './TeamSliderParent.css';
 import { getMembers } from '../../../../constants/TeamSliderConstants';
 
-export default function () {
+export default function TeamSliderParent() {
     return (
         <div className="team-parent-container">
             <div className="team-parent-header-container">

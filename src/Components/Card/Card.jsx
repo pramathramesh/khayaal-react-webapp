@@ -6,7 +6,7 @@ export default function Card(props) {
   const imageurl = props.imageurl;
   const position = props.position;
   const quote = props.quote;
-  const knowmore = props.knowmore;
+  // const knowmore = props.knowmore;
   return (
     <center className="flexitemot">
       <div className="flipCard">

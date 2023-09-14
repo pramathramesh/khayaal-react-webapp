@@ -1,6 +1,5 @@
 import MainTitle from '../../../Components/MainTitle/MainTitle';
 import ParentLeader1 from '../../../Components/ParentLeader1/ParentLeader1'
-import ParentLeader2 from '../../../Components/ParentLeader2/ParentLeader2'
 import cc1 from '../../../assets/ourteams/contentcreate/cc1.png'
 import cc2 from '../../../assets/ourteams/contentcreate/cc2.png'
 
@@ -24,8 +23,6 @@ import pr2 from '../../../assets/ourteams/publicrelations/pr2.png'
 
 import st1 from '../../../assets/ourteams/strategyteam/st1.png'
 
-
-import CO_F from '../../../assets/ourteams/Leaders/CO_F.png';
 import Founder from '../../../assets/ourteams/Leaders/sharmishtha_new.jpg';
 import './OurTeams.css';
 import TeamsSecComponent from '../../../Components/TeamsSecComponent/TeamsSecComponent';
@@ -33,8 +30,6 @@ import FAB from '../Floating-Button/FAB';
 const OurTeams = () => {
     const founder = "Greetings everyone. I am currently pursuing a Bachelor's degree in Management Studies. I am a very outspoken and extroverted individual. My passion can be stationed down to helping people. It’s unbearable for me to see someone in pain and if I can help a person in need or make a stray dog wiggle its tail, my day is made. I believe we all can make an impactful change in society if our heart is full of pure intentions. At heart, I am a person who cares about the environment and children."
     const founderbold = " I strongly believe that education combined with life skills can make the world a better place for those that find it difficult to access affordable education!"
-    const Cofounder = " Being an enterprising individual who believes in creating an impact while making an income, I believe kindness is the only thing that matters when it comes to being a part of others' lives! I really couldn't care less about where someone comes from, as long as they are willing to learn new things and hold a certain sense of empathy towards others, I'll be there for them, even when they have nothing. Helping others comes naturally to me. As much as running a whole organization that helps people is a conscious thought, helping someone isn't. "
-    const cofounderbold = "Khayaal is the part of my journey that allows me to help others, fuelling my forever subconscious to help others while making the life I've always dreamed for myself!"
     const educationCamp = [
         { name: "Pallak Bhutani", imageurl: ect1, position: "President", quote: "Help others without expectations, keep your intentions clear and you will be rewarded" },
         { name: "Khushi Mundra", imageurl: ect2, position: "Vice President", quote: "Life goes on, it won’t stop, so love while you can, give while you can and live while you can!" },
@@ -89,7 +84,7 @@ const OurTeams = () => {
             <MainTitle headingText="Our Leaders"></MainTitle>
             <div id="leaders">
                 <ParentLeader1 name="Sharmishtha Singh" position="Founder of Khayaal" desec={founder} bold={founderbold} imageurl={Founder}></ParentLeader1>
-                <ParentLeader2 name="Rohan Pariakar" position="Co-Founder of Khayaal" desec={Cofounder} bold={cofounderbold} imageurl={CO_F}></ParentLeader2>
+                {/* <ParentLeader2 name="Rohan Pariakar" position="Co-Founder of Khayaal" desec={Cofounder} bold={cofounderbold} imageurl={CO_F}></ParentLeader2> */}
             </div>
             <br />
             <FAB FAB_links={FAB_links}></FAB>

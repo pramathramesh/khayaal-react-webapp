@@ -1,11 +1,10 @@
-import { useState } from "react";
 import Card from "../Card/Card";
 import DividerAndHeading from "../OurTeams/DividerAndHeading";
 import './TeamsSecComponent.css'
 
 const TeamsSecComponent = (props) => {
     const sectionHeading = props.sectionHeading;
-    const [details, setDetails] = useState(props.details)
+    const details = props.details
 
     return (
     <div className="secc">
